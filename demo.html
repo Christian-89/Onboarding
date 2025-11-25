@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Urbix Hub - Backend Onboarding</title>
+    <meta name="description" content="Urbix Hub Developer Presentation">
+    <meta name="author" content="Urbix Hub">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reveal.js core styles -->
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <!-- SECTION 1: COMPANY INTRODUCTION -->
+        <section data-background="http://legaccidentes.com/wp-content/uploads/2016/09/consejos-y-reglas-para-conducir1.jpg" data-background-opacity="0.3">
+          <img src="Img/urbix_hub_logo.png" alt="Urbix Hub Logo" style="height: 120px; background: transparent; margin-bottom: 30px;">
+          <h1>Welcome to Urbix Hub</h1>
+          <h3>Digital mobility for a safer, smarter, and more sustainable world.</h3>
+        </section>
+
+
+        <section data-background="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b" data-background-opacity="0.3">
+          <h2>Our Purpose</h2>
+          <p>We believe road safety is a <strong>human right</strong>. Our technology saves lives through effective, accessible, and engaging driver training.</p>
+        </section>
+
+        <!-- SECTION 2: APPLICATION FLOW -->
+        <section>
+          <h1> Urbix Hub Application Flow</h1>
+          <p>This section illustrates the logical sequence of user interactions within <strong>Urbix Hub</strong>, from initial registration to financial reconciliation.</p>
+          <p>Each step represents a core process ensuring smooth navigation and system connectivity.</p>
+        </section>
+
+        <!-- 1. ONBOARDING -->
+        <section>
+          <h2> Onboarding (Account Registration & Activation)</h2>
+          <p>The initial process where different user profiles are created and activated.</p>
+        </section>
+
+      <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+        <h3>Manager Registration</h3>
+        <ul>
+          <li><strong>Business Manager (B2B Client)</strong> </strong> can register directly.</li>
+          <li>The system validates all input and assigns the user to their organization.</li>
+          <li>Registration is completed after <strong>email verification</strong>.</li>
+        </ul>
+        <img src="img/registro.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+      </section>
+      <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+        <h3>Driving school Manager Registration</h3>
+        <ul>
+          <li><strong>Driving School Manager</strong> can register directly.</li>
+          <li>The system validates all input and assigns the user to their organization.</li>
+          <li>Registration is completed after <strong>email verification</strong>.</li>
+        </ul>
+        <img src="img/registroDCM.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+      </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Driver Activation</h3>
+          <ul>
+            <li><strong>Drivers</strong> cannot self-register.</li>
+            <li>The <strong>Business Manager</strong> sends an invitation from their admin dashboard.</li>
+            <img src="img/IniviatacionManger.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+            <li>The driver uses the invite to create their account and link to the organization automatically.</li>
+          </ul>
+          <img src="img/InvitacionDriver.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/registroD.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <!-- 2. CONFIGURATION AND PURCHASE -->
+        <section>
+          <h2> Initial Configuration & Session Package Purchase</h2>
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Simulator Configuration</h3>
+          <p>The <strong>Driving School Manager (DSM)</strong> registers available simulators in the system.</p>
+          <ul>
+            <li>Includes name, model, cabin type, supported vehicles, address, availability, and image.</li>
+            <li>This setup defines the simulator visibility for Business Managers.</li>
+          </ul>
+          <img src="img/RegistroSimulador.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/RegistroSimulador2.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Session Package Purchase</h3>
+          <ul>
+            <li>The <strong>Business Manager</strong> purchases session packages via “Plan & Billing.”</li>
+            <img src="img/PagarSesiones.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+            <li>An invoice with Urbix Hub’s payment details is generated.</li>
+            <img src="img/ordenPago.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+            <li>After payment validation, sessions are credited and ready for booking.</li>
+            <img src="img/AsignarSesions.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          </ul>
+        </section>
+
+        <!-- 3. BOOKING AND EXECUTION -->
+        <section>
+          <h2> Session Booking & Execution</h2>
+          <p>Both <strong>Business Managers</strong> and <strong>Drivers</strong> can manage training session bookings within the platform.</p>
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Booking Request (Business Manager)</h3>
+          <ul>
+            <li>The Business Manager assigns sessions to drivers via “Book A Session.”</li>
+            <li>Required data: driver, city, vehicle type, school, date, and time.</li>
+          </ul>
+          <img src="img/BokinManager1.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/BokinManager2.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/BokinManager3.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Booking Request (Driver)</h3>
+          <ul>
+            <li>The <strong>Driver</strong> can also book a session from their dashboard.</li>
+            <li>Selects city, vehicle type, school,  date, and time.</li>
+          </ul>
+          <img src="img/Bokindriver1.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/Bokindriver2.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          <img src="img/Bokindriver3.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Partner Approval (DSM)</h3>
+          <ul>
+            <li>The <strong>Driving School Manager</strong> receives and approves the booking request.</li>
+            <img src="img/Asolicitud.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+            <li>The system then notifies all users and confirms the session.</li>
+            <img src="img/NotificacionSecion.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+            <img src="img/NotificacionSecionD.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+          </ul>
+        </section>
+
+        <section>
+          <h3>Execution & Attendance Verification</h3>
+          <ul>
+            <li>The driver attends the session at the driving school.</li>
+            <li>If attended → session marked as <strong>Completed</strong> and payment is triggered.</li>
+            <li>If absent → session marked as <strong>No-Show</strong> and subject to refund.</li>
+          </ul>
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>Result Tracking</h3>
+          <ul>
+            <li><strong>Business Managers</strong> can review the session status from their dashboard.</li>
+            <li>Includes reports, performance results, and No-Show incidents.</li>
+          </ul>
+          <img src="img/reporte.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <!-- 4. FINANCIAL RECONCILIATION -->
+        <section>
+          <h2> Financial Reconciliation</h2>
+        </section>
+
+        <section>
+          <h3>Monthly Accumulation</h3>
+          <ul>
+            <li>The system consolidates all completed and uncompleted sessions monthly.</li>
+            <li>Driving School Managers report session statuses for that month.</li>
+          </ul>
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+          <h3>School Payments</h3>
+          <ul>
+            <li>Payments are executed for validated sessions.</li>
+            <li>All reconciliations are logged in the Urbix Hub administrative system.</li>
+          </ul>
+          <img src="img/pagos.png" alt="Account Creation Flow" style="width: 90%; height: auto; margin-top: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+        </section>
+
+        <!-- SECTION 3: FRONTEND SETUP -->
+
+        <section>
+                <p>Welcome to the Urbix Hub Frontend! This section covers everything needed to get up and running with the client application.</p>
+            </section>
+
+            <section>
+                <h2>Required Tools (Frontend)</h2>
+                <ul style="display: inline-block; text-align: left;">
+                    <li>Node.js (v20 or later)</li>
+                    <li>npm or pnpm (preferred package manager)</li>
+                    <li>Modern IDE (VSCode recommended)</li>
+                    <li>Browser Developer Tools (Chrome/Firefox)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Urbix Hub Frontend Architecture </h2>
+                <p>The frontend is a Single Page Application (SPA) with a focus on user experience.</p>
+                <ul style="display: inline-block; text-align: left;">
+                    <li>Framework: React + TypeScript</li>
+                    <li>Bundler: Vite</li>
+                    <li>Styling: Tailwind CSS (utility-first approach)</li>
+                    <li>State: Zustand (lightweight state management)</li>
+                    <li>Routing: React Router DOM</li>
+                </ul>
+            </section>
+
+            <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+                <h2>Frontend Environment & Setup</h2>
+                <p>Frontend configuration variables are managed via the <code>.env</code> file, prefixed with **<code>NEXT_PUBLIC_</code>**:</p>
+                <p>For this configuration, you are provided with the Environment Variables [FE] file which will help you with the frontend configuration.</p>
+                <pre style="font-size: 0.7em;"><code class="hljs bash" data-trim>
+                  # Basic Environment
+                  NODE_ENV=development
+                  PORT=3000
+                  # API Configuration
+                  NEXT_PUBLIC_API_URL=http://localhost:3001/api
+                  NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+                </code></pre>
+            </section>
+
+
+            <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+                <h2>Frontend Execution Flow</h2>
+                <p>The Frontend app's execution depends on the API URL configured in the local <code>.env</code> file, which points to the running Backend port.</p>
+                <h3>Execution Order (Recommended)</h3>
+                <ol style="display: inline-block; text-align: left;">
+                    <li><strong>Start the Backend:</strong> Ensure the backend server is running first to handle API requests.</li>
+                    <li><strong>Start the Frontend:</strong> Execute the command below to start the client application.</li>
+                </ol>
+                <p>Use <code>pnpm</code> as the preferred package manager for a faster and more efficient setup:</p>
+                <pre><code class="hljs bash" data-trim>
+                  # Navigate to the frontend directory if needed
+                  cd urbixhubMVP1_FE
+                  
+                  # Execute the command to start the development server
+                  pnpm run dev
+                </code></pre>
+                <p style="font-size: 0.8em;">**Note:** The <code>NEXT_PUBLIC_API_URL</code> in the <code>.env</code> file must match the running backend port (e.g., `http://localhost:3001/api`).</p>
+            </section>
+
+            <section>
+                <h2>Frontend Observability & CI/CD</h2>
+                <ul style="display: inline-block; text-align: left;">
+                    <li>Error Tracking: Sentry for error monitoring.</li>
+                    <li>CI/CD: GitHub Actions for testing and building.</li>
+                </ul>
+            </section>
+
+
+        <!-- SECTION 4: BACKEND SETUP -->
+        <section>
+          <h1> Getting Started with Urbix Hub Backend</h1>
+          <p>Before contributing, make sure your environment is properly configured.</p>
+        </section>
+
+        <section>
+          <h2>Required Tools</h2>
+          <ul>
+            <li>Node.js (v20 or later)</li>
+            <li>npm or pnpm</li>
+            <li>PostgreSQL</li>
+            <li>TypeORM</li>
+            <li>Docker (optional, for containerized setups)</li>
+            <li>VSCode or any preferred IDE</li>
+          </ul>
+        </section>
+
+                <section>
+          <h2>Project Setup</h2>
+          <pre><code class="hljs bash" data-trim>
+			git clone https://github.com/urbixhubMVP1_BE.git
+			cd urbixhubMVP1_BE
+
+			pnpm install
+          </code></pre>
+          <p>Ensure your environment variables are configured in the <code>.env</code> file.</p>
+        </section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+  <h2> Environment & Development Setup</h2>
+  <p>Each developer configures the backend using a local <code>.env</code> file:</p>
+  <p>For this configuration, you are provided with the Environment Variables file which will help you with the backend configuration.</p>
+  <pre style="font-size: 0.7em;"><code class="hljs bash" data-trim>
+# Basic Environment
+NODE_ENV=development
+PORT=3000
+
+# Database
+DB_HOST=localhost
+DB_USER=postgres
+DB_PASSWORD=your_password
+
+# Redis
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+  </code></pre>
+  <p><strong>Tip:</strong> Connect to Redis and PostgreSQL via secure tunnels for remote access.</p>
+</section>
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+  <h2> Database Connection (Remote) </h2>
+  <p>The central **PostgreSQL** databases are hosted on **DigitalOcean** for development, staging, and production environments.</p>
+  <p>To connect remotely and interact with the data, use the credentials provided in the team's shared **Environment Variables** document.</p>
+  
+  <h3>Required Credentials for Remote Access:</h3>
+  <ul style="display: inline-block; text-align: left;">
+    <li>**DB_HOST:** The public connection hostname.</li>
+    <li>**DB_PORT:** The specific port (usually 25060 or 5432).</li>
+    <li>**DB_USER:** Your assigned database username.</li>
+    <li>**DB_PASSWORD:** Your database password.</li>
+    <li>**DB_NAME:** The specific database name (e.g., <code>urbix_dev</code>).</li>
+  </ul>
+</section>
+
+
+        <section style="height: 100%; overflow-y: auto; padding-right: 1rem;">
+  <h2> Backend Execution Flow (Docker) </h2>
+  <p>We recommend using Docker to manage the database (PostgreSQL) and caching (Redis) dependencies locally for a faster setup.</p>
+  <h3>Required Steps</h3>
+  <ol style="display: inline-block; text-align: left;">
+    <li><strong>Start Docker:</strong> Ensure Docker Desktop is running before proceeding.</li>
+    <li><strong>Cleanup (Optional):</strong> Stop and remove any previous containers.</li>
+    <li><strong>Launch Containers:</strong> Start the database and Redis containers in detached mode.</li>
+    <li><strong>Start Backend App:</strong> The application will run on the port specified in your local <code>.env</code> file.</li>
+  </ol>
+
+  <h3>Execution Commands</h3>
+  <pre><code class="hljs bash" data-trim data-line-numbers>
+# Navigate to the backend directory
+cd urbixhubMVP1_BE
+
+# 1. Ensure a clean state (optional, but recommended)
+docker compose down
+
+# 2. Launch the necessary services (DB, Redis) in the background
+docker compose up -d
+
+# 3.The method to retrieve the data from the database is executed.
+pnpm run schema:sync
+
+# 4. The application is running
+pnpm run dev 
+  </code></pre>
+</section>
+
+
+		<!-- BACKEND ARCHITECTURE & CONFIGURATION (COMPACT VERSION) -->
+<section>
+  <h2> Urbix Hub Backend Architecture</h2>
+  <p>The Urbix Hub backend is a distributed <strong>Node.js</strong> system built for scalability, reliability, and performance.</p>
+  <ul>
+    <li><strong>Framework:</strong> Node.js + Express (migration to NestJS planned)</li>
+    <li><strong>Database:</strong> PostgreSQL with TypeORM entities</li>
+    <li><strong>Cache:</strong> Redis for session management</li>
+    <li><strong>Storage:</strong> DigitalOcean Spaces for file handling</li>
+    <li><strong>CI/CD:</strong> GitHub Actions → Docker → ArgoCD</li>
+  </ul>
+</section>
+
+<section>
+  <h2> Observability & CI/CD Overview</h2>
+  <ul>
+    <li><strong>Logs:</strong> Managed via ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+    <li><strong>Deployments:</strong> Automated through GitHub Actions & ArgoCD</li>
+    <li><strong>Containers:</strong> Dockerized microservices for scalable delivery</li>
+  </ul>
+  <p><em>All changes are tested, built, and deployed automatically to Kubernetes clusters.</em></p>
+</section>
+
+<section>
+  <h2> Development Workflow</h2>
+  <ul style="font-size: 0.9em;">
+    <li>Follow Git branching: <code>main</code>, <code>develop</code>, <code>feature/*</code>, <code>hotfix/*</code></li>
+    <li>Use semantic commits: <code>feat:</code>, <code>fix:</code>, <code>chore:</code>, etc.</li>
+    <li>Run tests and linting before every push (<code>npm run test</code>)</li>
+    <li>Maintain clean code with ESLint + Prettier</li>
+  </ul>
+</section>
+
+      </div>
+    </div>
+
+    <!-- Reveal.js scripts -->
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        transition: 'fade',
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+      });
+    </script>
+  </body>
+</html>
